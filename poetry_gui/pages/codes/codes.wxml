@@ -1,0 +1,22 @@
+<!--pages/codes/codes.wxml-->
+<image class="weed" src='/images/草.png' ></image>
+<image class="lock" src='/images/解锁.png'></image>
+<view class='qaa' >
+<view class='tit'><text class='qtxt'>回答问题打开卷轴</text></view>
+<view> <text>3x3=?</text>   
+ <input class="input" name="ans" placeholder="请输入正确答案" /> </view>
+   <view class="keyrow">
+      <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' bindtap='vehicleTap' data-value="{{item}}" wx:for="{{keyNumber1}}" style="border:{{buttonBorder}}" wx:for-index="idx" wx:key="item" bindtap='bind_{{item}}'>{{item}}</view>
+     </view>
+     <view class="keyrow">
+      <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' bindtap='vehicleTap' data-value="{{item}}" wx:for="{{keyNumber2}}" style="border:{{buttonBorder}}" wx:for-index="idx" wx:key="item">{{item}}</view>
+     </view>
+    <view class="keyrow">
+    <view hover-class="numhover" style="border:{{buttonBorder}}" hover-start-time="10" hover-stay-time="100" class='numbutton buttonok' bindtap='ansinp' >确定</view>
+    <view hover-class="numhover" style="border:{{buttonBorder}}" hover-start-time="10" hover-stay-time="100" class='numbutton buttondelete' bindtap='vehicleTap' data-value="delete">删除</view>
+   </view>
+    </view>
+  
+
+
+

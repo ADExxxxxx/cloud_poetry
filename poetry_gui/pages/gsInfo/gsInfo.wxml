@@ -1,0 +1,23 @@
+<!--pages/gsInfo/gsInfo.wxml-->
+<view class='pinfo'>
+  <view>{{poem.title}}</view>
+  <view>{{poem['author']}}</view>
+  <view><text decode="{{true}}">&nbsp;{{poem['sentence'][0]}}</text></view>
+  <view>{{poem['sentence'][1]}}</view>
+  <view>{{poem['sentence'][2]}}</view>
+  <view>{{poem['sentence'][3]}}</view>
+  <view class='flx'>
+    <view class='flx_item'>
+      <view class='title' data-index='1' catchtap='panel'>
+        <view class='title_1'>【注释】</view>
+        <view class='title_2'><image src="../../images/{{showIndex == 1 ? 'up':'down'}}.png"></image></view>
+      </view>
+      <view class='intro' wx:if="{{showIndex == 1}}">{{poem['intro']}}</view>
+    </view>
+  </view>
+  <view class="switchToIndex" bindtap="switchToIndex">
+    回到主页
+  </view>
+</view>
+
+ 

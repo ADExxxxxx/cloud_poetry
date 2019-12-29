@@ -1,0 +1,29 @@
+<!--pages/codes/codes.wxml-->
+<image class="weed" src='/images/草.png' ></image>
+<image class="lock" src='/images/解锁.png'></image>
+<view class='qaa' >
+  <view class='tit'>
+    <text class='qtxt'>回答问题打开卷轴</text>
+  </view>
+  <view class='middle'> 
+    <text class='qsize'>{{content}}</text>
+  <view bindtap='LicensePlateNumber' >
+ <input class='input' value='{{LicensePlateNumber}}' disabled='true' placeholder='请输入答案'></input>
+ </view>
+ </view>
+ <view class="keyrow">
+  <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' wx:for='{{licensePlate_digital1}}' bindtap='licensePlate_digital1' data-licensePlateProvinces='{{item}}' wx:key='index'>{{item}}</view>
+ </view>
+ <view class="keyrow">
+  <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' wx:for='{{licensePlate_digital2}}' bindtap='licensePlate_digital2' data-licensePlateProvinces='{{item}}' wx:key='index'>{{item}}</view>
+ </view>
+ <view class="keyrow">
+  <view hover-class="numhover"  hover-start-time="10" hover-stay-time="100" class='numbutton buttondelete' bindtap='licensePlate_delete'>删除</view>
+  <view hover-class="numhover"  hover-start-time="10" hover-stay-time="100" class='numbutton buttonsumbit' bindtap='listenSubmit'>提交</view>
+  <view hover-class="numhover"  hover-start-time="10" hover-stay-time="100" class='numbutton buttonclean' bindtap='licensePlate_empty'>清空</view>
+  </view>
+</view>
+  
+
+
+

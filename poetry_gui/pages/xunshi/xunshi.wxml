@@ -1,0 +1,22 @@
+<view class="container">
+  <textarea>{{content}}</textarea>
+  <form bindsubmit='listenSubmit'>
+    <input name="answer" value='{{answer}}' bindinput='input'></input>
+
+    <button formType="submit" type="primary">提交</button>
+    
+  </form>
+  <view></view>
+  <view class='view_input'>
+    <button bindtap='bind_0'>0</button>
+    <button bindtap='bind_1'>1</button>
+    <button bindtap='bind_2'>2</button>
+    <button bindtap='bind_3'>3</button>
+    <button bindtap='bind_4'>4</button>
+    <button bindtap='bind_5'>5</button>
+    <button bindtap='bind_6'>6</button>
+    <button bindtap='bind_7'>7</button>
+    <button bindtap='bind_8'>8</button>
+    <button bindtap='bind_9'>9</button>
+  </view>
+</view>

@@ -1,0 +1,189 @@
+/* pages/login/login.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00BFFF;
+  width: 100%;
+  padding: 50rpx 0
+ }
+  .view1 {
+   width: 100%;
+   height: 280rpx;
+   position: absolute;
+   top:0%;
+   background: rgb(255, 221, 72);
+}
+ 
+ .view11 {
+   width: 100%;
+   height: 150rpx;
+   position: absolute;
+   top:18%;
+   background: linear-gradient(rgb(255, 221, 72), rgb(255, 255, 255));
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  position: absolute;
+  top:15%;
+  left:10%;
+  border-radius: 50%;
+}
+.btn1 {
+  width: 180rpx;
+  height: 90rpx;
+  position: absolute;
+  left: 280rpx;
+  top: 90rpx;
+  box-shadow:0 0 10rpx 2rpx #999;
+  display: table-cell;
+  vertical-align: middle;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40rpx;
+}
+.avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 90rpx;
+  position: relative;
+  box-shadow:0 0 10rpx 2rpx #999;
+}
+.box{
+  width: 80%;
+  height: 200rpx;
+  position: absolute;
+  display: flex;
+  top: 10rpx;
+  align-items: center;
+}
+.box_content{
+  margin-left:20rpx;
+  align-items: none; 
+}
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+.btnImg1 {
+  top:50%;
+  margin-right: 8rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+.btn2{
+  width: 85%;
+  border-radius: 50rpx;
+  background: white;
+  border-bottom: 2rpx #F1F1F1 solid;
+  padding: 0 4%;
+  position:absolute;
+  top:40%;
+  box-shadow:0 0 10rpx 2rpx #999;
+}
+.btn3{
+  width: 85%;
+  border-radius: 50rpx;
+  background: white;
+  border-bottom: 2rpx #F1F1F1 solid;
+  padding: 0 4%;
+  position:absolute;
+  top:70%;
+  box-shadow:0 0 10rpx 2rpx #999;
+}
+.btn4{
+
+  width: 85%;
+  height: 180rpx;
+  border-radius: 50rpx;
+  background: white;
+  border-bottom: 2rpx #F1F1F1 solid;
+  padding: 0 4%;
+  flex-direction:row; 
+  position:absolute;
+  box-shadow:0 0 10rpx 2rpx #999;
+  top:20%;
+}
+.fst{
+  width: 100%; 
+  padding: 11rpx 0;
+
+}
+.nxt{
+   border-top: 2rpx rgba(128, 128, 128, 0.4) solid; 
+   padding: 11rpx 0
+}
+.trd{
+  border-left: 2rpx rgba(128, 128, 128, 0.4); 
+  padding: 11rpx 0
+
+}
+.fth{
+   width: 50%; 
+   padding: 11rpx 0;
+}
+.userinfo-nickname {
+  position: absolute;
+  top:17%;
+  
+  
+  color: rgb(255, 255, 255);
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.nums{
+  font-size: 68rpx;
+}
+
+.view_icon_left{
+  width: 70;
+  height: 120rpx;
+  position: relative;
+  float: left;
+  padding: 8% 5%;
+}
+.view_icon_right{
+  width: 70;
+  height: 120rpx;
+  position: relative;
+  float: right;
+  padding: 8% 5%;
+}
+navigator{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  margin-left: 10rpx; 
+}
+
+.btn_quit{
+  width: 92%;
+  height: 70rpx;
+  
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 42rpx;
+  box-shadow:0 0 10rpx 2rpx #999;
+
+  position: absolute;
+  top: 87%;
+  border-radius: 50rpx;
+}
+
+.btn_quit:active{
+  background: rgba(128, 128, 128, 0.4);
+}

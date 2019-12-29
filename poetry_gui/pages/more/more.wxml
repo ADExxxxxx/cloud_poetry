@@ -1,0 +1,31 @@
+<!--pages/more/more.wxml-->
+
+<swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{picUrl}}">
+    <swiper-item>
+      <image src="{{item.url}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<image class='raw' src="/images/raw.png"></image>
+<view class="rectxt">
+<text class="ft1"decode="{{true}}" space="{{true}}"> 每日推荐 </text>
+
+<text class="ft2" decode="{{true}}" space="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</text>
+</view>
+<image class='raw1' src="/images/raw.png"></image>
+<view class="storytxt">
+<text class="ft1"decode="{{true}}" space="{{true}}"> 诗中小故事 </text>
+<text class="ft2"decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</text>
+</view>
+<image class='raw2' src="/images/raw.png"></image>
+<view class="knowledgetxt">
+<text class="ft1"decode="{{true}}" space="{{true}}"> 历史小知识 </text>
+<text class="ft2"decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</text>
+</view>
+<image class='more1' src='/images/more1.png' ></image>
+<image class='stor1' src='/images/story1.png'></image>
+<image class='knowledge1'
+src='/images/knowledge1.png'></image>
+<image class='wenzi' src="/images/手写背景字.png" mode="widthFix"></image>

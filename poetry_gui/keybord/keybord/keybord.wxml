@@ -1,0 +1,12 @@
+<view class='qaa' >
+  <view class="keyrow">
+      <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' bindtap='vehicleTap' data-value="{{item}}" wx:for="{{keyNumber1}}" style="border:{{buttonBorder}};z-index:100" wx:for-index="idx" wx:key="item">{{item}}</view>
+     </view>
+     <view class="keyrow">
+      <view hover-class="numhover" hover-start-time="10" hover-stay-time="100" class='numbutton numbuttonnumber' bindtap='vehicleTap' data-value="{{item}}" wx:for="{{keyNumber2}}" style="border:{{buttonBorder}};z-index:100" wx:for-index="idx" wx:key="item">{{item}}</view>
+     </view>
+    <view class="keyrow">
+    <view hover-class="numhover" style="border:{{buttonBorder}}" hover-start-time="10" hover-stay-time="100" class='numbutton buttonok' bindtap='vehicleTap' >确定</view>
+    <view hover-class="numhover" style="border:{{buttonBorder}}" hover-start-time="10" hover-stay-time="100" class='numbutton buttondelete' bindtap='vehicleTap' data-value="delete">删除</view>
+   </view>
+    </view>

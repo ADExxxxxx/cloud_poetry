@@ -1,0 +1,30 @@
+<!--pages/photo/photo.wxml-->
+<image class='top' src="/images/backim.png" mode="widthfix"></image>
+<view class="cent">
+  <image bindtouchend='uploadImage' class='camera' src="/images/camare.png" ></image>
+</view>
+<image class='raw' src="/images/raw.png"></image>
+<view class="eartxt">
+<text class="ft1"decode="{{true}}" space="{{true}}"> 磨耳朵 </text>
+
+<text class="ft2"decode="{{true}}" space="{{true}}">&nbsp;故事循环·有趣小故事&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</text>
+</view>
+<view class="thre">
+<image class='card' src="/images/daily.png" mode="widthfix"></image>
+<image class='card' src="/images/morning.png" mode="widthfix"></image>
+<image class='card' src="/images/sleep.png" mode="widthfix"></image>
+</view>
+<image class='raw1' src="/images/raw.png"></image>
+<view class="radiotxt">
+<text class="ft1"decode="{{true}}" space="{{true}}"> 趣录音 </text>
+
+<text class="ft2"decode="{{true}}" space="{{true}}">&nbsp;朗读古代诗词·激发兴趣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</text>
+</view>
+<view class="thre1">
+<image class='card' src="/images/daily.png" mode="widthfix"></image>
+<image class='card' src="/images/morning.png" mode="widthfix"></image>
+<image class='card' src="/images/sleep.png" mode="widthfix"></image>
+</view>
+<view class="wenzi">
+<image src="/images/手写背景字.png" mode="widthFix"></image>
+</view>

@@ -1,0 +1,61 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="view">
+    <block  wx:if="{{hasUserInfo && canIUse}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="view1"></view>
+  <view class="view11"></view>
+  <view class="btn2" >
+    <navigator class="fst" url="../ulist/ulist?openid={{openid}}">
+    <image class='btnImg' src='../../images/浏览.png'></image>
+      最近浏览
+    </navigator>
+    <navigator class="nxt" url="../pages">
+    <image class='btnImg' src='../../images/收藏.png'></image>
+        我的收藏
+    </navigator>
+    <navigator class="nxt" url="../pages/">
+    <image class='btnImg' src='../../images/照片下载.png'></image>
+        我下载的
+    </navigator>
+    <navigator class="nxt" url="../pages">
+    <image class='btnImg' src='../../images/播放录音.png'></image>
+        我的录音
+    </navigator> </view>
+    
+    <view class="btn3">
+        <navigator class="fst" url="../pages/">
+    <image class='btnImg' src='../../images/商城.png'></image>
+        兑换商城
+    </navigator>
+    <navigator class="nxt" url="../pages">
+    <image class='btnImg' src='../../images/订单.png'></image>
+        兑换订单
+    </navigator>
+    </view>
+    <view class="btn4">
+
+    <view class='view_icon_left'>
+    <image class='btnImg1' src='../../images/鱼.png'></image>
+      <text class="nums">56</text><p>条</p>
+    </view>
+    
+    <view class='view_icon_right'>
+    <image class='btnImg1' src='../../images/虾.png'></image>
+        <text class="nums">56</text><p>条</p>
+    </view>
+    </view>
+    
+    <button class="btn1" wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登陆 </button>
+    <view class='btn_quit'wx:if="{{hasUserInfo}}" bindtap="logout">退出登录</view>
+    <view wx:if="{{hasUserInfo}}" class='box'>
+      <image class='avatar' src='{{avatarUrl}}'></image>
+      <view class='box_content'>{{nickName}}</view>
+    </view>
+</view>
+
+
+  

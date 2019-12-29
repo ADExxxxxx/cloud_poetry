@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/xunshi/xunshi",
+    "pages/login/login",
+    "pages/gsList/gsList",
+    "pages/gsInfo/gsInfo",
+    "pages/codes/codes",
+    "pages/more/more",
+    "pages/question/question"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffdd48",
+    "navigationBarTitleText": "趣寻诗",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+    "tabBar": {
+      "list": [
+        {
+          "iconPath": "./icon/index.png",
+          "selectedIconPath": "./icon/index_on.png",
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "iconPath": "./icon/xunshi.png",
+          "selectedIconPath": "./icon/xunshi_on.png",
+          "pagePath": "pages/more/more",
+          "text": "寻诗馆"
+        },
+        {
+          "iconPath": "./icon/xunshi.png",
+          "selectedIconPath": "./icon/xunshi_on.png",
+          "pagePath": "pages/login/login",
+          "text": "我的"
+        }
+      ]
+    }
+}

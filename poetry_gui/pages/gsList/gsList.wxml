@@ -1,0 +1,11 @@
+<!--pages/gsList/gsList.wxml-->
+<image class="weed" src='/images/草.png' ></image>
+<image class='juanzhou' src='/images/卷轴.png' ></image>
+<view class='container'>
+  <view class='item' bindtap='item_1'><text>{{poem[0]['title']}}</text></view>
+  <view class='item' bindtap='item_2'><text>{{poem[1]['title']}}</text></view>
+  <view class='item' bindtap='item_3'><text>{{poem[2]['title']}}</text></view>
+  <view class='item' bindtap='item_4'><text>{{poem[3]['title']}}</text></view>
+  <view class='item' bindtap='item_5'><text>{{poem[4]['title']}}</text></view>
+</view>
+

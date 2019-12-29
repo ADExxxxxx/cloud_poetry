@@ -1,0 +1,57 @@
+/* pages/gsInfo/gsInfo.wxss */
+page{
+  background: #ffefab
+}
+.pinfo{
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center; 
+}
+.flx{
+  width: 700rpx;
+  margin: 0 auto; 
+}
+.flx_item{
+margin: 10rpx auto;
+}
+.title {
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #ffefab;
+  display: flex;
+}
+.title_1 {
+  width: 630rpx;
+  height: 60rpx;
+  padding-left: 20rpx;
+  text-align: left;
+}
+.title_2 {
+  width: 50rpx;
+  height: 60rpx;
+  text-align: center;
+}
+.title_2 image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx auto;
+}
+.detail {
+  margin: 10rpx auto;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  text-indent: 2em;
+}
+.switchToIndex{
+  position: absolute;
+  bottom: 10%;
+  background: #ffdd48;
+  border: 3px solid #ffdd48;
+  border-radius: 15px;
+  width: 200rpx;
+  height: 60rpx;
+
+}

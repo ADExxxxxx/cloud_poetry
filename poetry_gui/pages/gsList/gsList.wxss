@@ -1,0 +1,38 @@
+/* pages/gsList/gsList.wxss */
+page{
+  background: #ffefab
+}
+.item{
+  width: 50%;
+  height: 250rpx;
+  display: flex;
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  writing-mod:vertical-lr;
+  z-index: 10000;
+}
+.weed{
+  width:100%; 
+  height: 120%;
+  z-index: 10;
+  position: fixed;
+  bottom: 0%;
+  z-index:1000;
+  }
+  .juanzhou{
+    width: 100%;
+    height: 2800rpx;
+    position: absolute;
+    top: -1120rpx;
+  }
+  .container{
+    width: 100%;
+    align-items: center;
+   text-align:center;
+   align-items:center;
+   justify-content: center;
+   writing-mod:vertical-lr;
+  }

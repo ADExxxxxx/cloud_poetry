@@ -1,0 +1,10 @@
+/* pages/xunshi/xunshi.wxss */
+.view_input{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+button{
+  margin: 10rpx;
+}
